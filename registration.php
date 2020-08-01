@@ -16,14 +16,14 @@ include 'header.php'
                         <div class="step" data-target="#test-l-1">
                             <button type="button" class="btn step-trigger">
                                 <span class="bs-stepper-circle">1</span>
-                                <span class="bs-stepper-label">First step</span>
+                                <span class="bs-stepper-label">Credential information</span>
                             </button>
                         </div>
                         <div class="line"></div>
                         <div class="step" data-target="#test-l-2">
                             <button type="button" class="btn step-trigger">
                                 <span class="bs-stepper-circle">2</span>
-                                <span class="bs-stepper-label">Second step</span>
+                                <span class="bs-stepper-label">User information</span>
                             </button>
                         </div>
                         <div class="line"></div>
@@ -58,7 +58,7 @@ include 'header.php'
                                     </div>
                                 </form>
                                 <button class="previous-btn" onclick="stepper1.previous()">Previous</button>
-                                <button class="login-btn next-btn" style="margin-left: 1em;">SAVE</button>
+                                <button class="login-btn next-btn" style="margin-left: 1em;">Save</button>
 
                             </div>
 

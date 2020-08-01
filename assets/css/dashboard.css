@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+.dashboard {
+    padding: 5% 10% 5% 10%;
+}
+
+.dashboard-container {
+    padding: 1%;
+    background-color: #fff;
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+}
+
+body {
+    background-color: #F3F4F5 !important;
+}
+
+h6 {
+    padding-top: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+h5,
+.subject-h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.line {
+    background-color: #e1e1e1 !important;
+    height: 1px;
+}
+
+.header-text {
+    font-family: 'Concert One', cursive;
+    padding-top: 2em;
+}
+
+.orange-btn {
+    background-color: #ffa600c0;
+    padding: 5em;
+}
+
+.grey-btn {
+    background-color: #292929c0;
+    padding: 5em;
+    color: #fff;
+}
+
+.blue-btn {
+    background-color: #00aeffc0;
+    padding: 5em;
+}
+
+.exam-div {
+    padding-top: 5em;
+    display: none;
+}
+
+.student-div {
+    padding-top: 5em;
+    display: none;
+}
+
+.add-subject-btn {
+    width: 50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    background: rgb(255, 169, 0);
+    background: linear-gradient(60deg, rgba(255, 169, 0, 1) 0%, rgba(255, 158, 0, 0.6755077030812324) 100%, rgba(255, 222, 0, 1) 100%);
+}
+
+.add-subject-btn:hover {
+    background-color: #ffa900;
+    transition: .5s ease;
+}
+
+.subject-dropdown {
+    background-color: #F3F4F5;
+    color: #121212;
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #F3F4F5;
+    border-radius: 3px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
