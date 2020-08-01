@@ -96,3 +96,28 @@ h5,
 a:hover {
     text-decoration: none !important;
 }
+
+.role-btn {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-role-btn {
+    width: 50%;
+    background: rgb(0, 115, 185);
+    background: linear-gradient(60deg, rgba(0, 115, 185, 1) 0%, rgba(0, 224, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+}
+
+.add-role-btn:hover {
+    background-color: #009de0;
+    transition: .5s ease;
+}
