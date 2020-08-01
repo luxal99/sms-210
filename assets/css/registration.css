@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-.row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-.login-div {
-    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
-    background-color: #fff;
+@import "index.css";
+.step-form {
     padding: 2em;
 }
 
-.login-container {
-    padding-top: 10%;
+.previous-btn {
+    width: 40%;
+    margin-top: 1em;
+    background-color: #F3F4F5;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 3px;
+    border: 0px;
+    color: rgb(0, 115, 185);
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
 }
 
-.login-btn {
-    width: 90%;
+.next-btn {
+    width: 40%;
+    margin-top: 1em;
     background: rgb(0, 115, 185);
     background: linear-gradient(60deg, rgba(0, 115, 185, 1) 0%, rgba(0, 224, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
     padding-top: .5em;
@@ -28,28 +30,4 @@
     -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
-}
-
-.login-btn:hover {
-    background-color: #009de0;
-    transition: .5s ease;
-}
-
-body {
-    background-color: #00B2FF !important;
-}
-
-h6 {
-    padding-top: 1em;
-    font-family: 'Poppins', sans-serif;
-}
-
-a {
-    color: #999 !important;
-}
-
-a:hover {
-    text-decoration: none !important;
-    color: #666 !important;
-    transition: .5s ease;
 }
