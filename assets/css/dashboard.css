@@ -121,3 +121,25 @@ a:hover {
     background-color: #009de0;
     transition: .5s ease;
 }
+
+.role-dropdown {
+    background-color: #F3F4F5;
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    border: 0 !important;
+    padding: .5em;
+}
+
+.role-save-btn {
+    border: 0 !important;
+    width: 50%;
+    width: 50%;
+    background: rgb(0, 115, 185);
+    background: linear-gradient(60deg, rgba(0, 115, 185, 1) 0%, rgba(0, 224, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+}

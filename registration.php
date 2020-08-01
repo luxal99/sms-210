@@ -47,7 +47,7 @@ include 'header.php'
 
                         </div>
                         <div id="test-l-2" class="content">
-                        <div class="step-form">
+                            <div class="step-form">
                                 <form>
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full name">
@@ -56,9 +56,20 @@ include 'header.php'
                                     <div class="form-group">
                                         <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
                                     </div>
+
+                                    <div class="dropdown show">
+                                        <button class="role-dropdown " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select role</button>
+
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>
                                 </form>
                                 <button class="previous-btn" onclick="stepper1.previous()">Previous</button>
                                 <button class="login-btn next-btn" style="margin-left: 1em;">Save</button>
+
 
                             </div>
 

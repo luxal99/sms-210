@@ -31,3 +31,15 @@
     -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
 }
+
+.role-dropdown {
+    width: 40%;
+    background-color: #121212;
+    -webkit-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+    padding: .3em;
+    border: 1px solid #121212;
+    color: #F3F4F5;
+    border-radius: 3px;
+}
