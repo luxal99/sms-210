@@ -41,15 +41,15 @@ include "header.php"
                         </div>
 
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm" onclick="showExamTabs()">
                         <div class="blue-btn">
-                            <h5>Manage students</h5>
+                            <h5>Manage exams</h5>
                         </div>
 
                     </div>
 
                 </div>
-                <div class="exam-div" id="exam-div">
+                <div class="subject-div" id="subject-div">
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                             <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All subjects</a>
@@ -94,15 +94,15 @@ include "header.php"
                             <form style="padding: 2em;">
                                 <div class="form-group">
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject title">
-                                    
+
                                 </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject code">
-                                    
+
                                 </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject year">
-                                    
+
                                 </div>
                                 <button type="submit" class="add-subject-btn">Save</button>
                             </form>
@@ -216,9 +216,83 @@ include "header.php"
                     </div>
                 </div>
 
-                
+                <div class="exam-div" id="exam-div">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#all-exams" role="tab" aria-controls="nav-home" aria-selected="true">All students</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#add-exam" role="tab" aria-controls="nav-profile" aria-selected="false">Add</a>
+                            </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="all-exams" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="add-exam" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <form style="padding: 2em;">
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="dropdown show">
+                                            <button class="subject-dropdown " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select student</button>
 
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="dropdown show">
+                                            <button class="subject-dropdown " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select subject</button>
 
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="#">Action</a>
+                                                <a class="dropdown-item" href="#">Another action</a>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter grade">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="add-exam-btn">Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- Button trigger modal -->
             <!-- Modal -->

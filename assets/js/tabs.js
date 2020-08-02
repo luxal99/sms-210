@@ -1,5 +1,5 @@
 function showSubjectTabs() {
-    const x = document.getElementById("exam-div");
+    const x = document.getElementById("subject-div");
     if (x.style.display === "none") {
         x.style.display = "block";
 
@@ -10,6 +10,16 @@ function showSubjectTabs() {
 
 function showStudentsTabs() {
     const x = document.getElementById("student-div");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showExamTabs() {
+    const x = document.getElementById("exam-div");
     if (x.style.display === "none") {
         x.style.display = "block";
 

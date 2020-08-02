@@ -51,7 +51,7 @@ h5,
     padding: 5em;
 }
 
-.exam-div {
+.subject-div {
     padding-top: 5em;
     display: none;
 }
@@ -142,4 +142,22 @@ a:hover {
     border-radius: 3px;
     border: 0px;
     color: #fff;
+}
+
+.add-exam-btn {
+    border: 0 !important;
+    width: 100%;
+    margin-top: 2em;
+    background: rgb(0, 115, 185);
+    background: linear-gradient(60deg, rgba(0, 115, 185, 1) 0%, rgba(0, 224, 255, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 3px;
+    border: 0px;
+    color: #fff;
+}
+
+.exam-div {
+    display: none;
+    padding-top: 2em;
 }
