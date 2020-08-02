@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 .user {
     padding: 5% 10% 5% 10%;
 }
@@ -7,4 +9,17 @@
     background-color: #fff;
     -moz-box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 11px 32px -17px rgba(0, 0, 0, 0.75);
+}
+
+h4 {
+    padding-top: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Concert One', cursive;
+}
+
+.table-div {
+    padding-top: 2em;
 }
